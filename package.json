@@ -13,8 +13,7 @@
     "db:push": "pnpm drizzle-kit push",
     "db:push:prod": "ENV=prod pnpm with-env drizzle-kit push:sqlite && pnpm db:seed:prod",
     "db:seed": "ENV=dev bun server/lib/database/seed.ts",
-    "db:seed:prod": "ENV=prod bun server/lib/database/seed.ts",
-    "with-env": "dotenv -e .env --"
+    "db:seed:prod": "ENV=prod bun server/lib/database/seed.ts"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^1.2.0",

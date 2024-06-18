@@ -1,5 +1,5 @@
 import { vars } from "@/lib/env";
-import { createClient } from "@libsql/client"
+import { createClient } from "@libsql/client";
 
 import { drizzle } from "drizzle-orm/libsql";
 import {
@@ -11,7 +11,7 @@ import {
 import type { AdapterAccountType } from "next-auth/adapters";
 
 const client = createClient({
-  url: vars.TURSO_DATABASE_URL,
+  url: vars.TURSO_URL,
   authToken: vars.TURSO_AUTH_TOKEN,
 });
 export const db = drizzle(client);
