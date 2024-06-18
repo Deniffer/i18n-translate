@@ -7,7 +7,12 @@ import ScrollingLogos from "@/components/home/ScrollingLogos";
 import SocialProof from "@/components/home/SocialProof";
 import WallOfLove from "@/components/home/WallOfLove";
 
-export const runtime = 'edge';
+export const runtime = "edge";
+
+//@ts-ignore
+global.performance = global.performance || {
+  now: () => new Date().getTime(),
+};
 
 export default function LangHome() {
   return (

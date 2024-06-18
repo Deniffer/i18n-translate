@@ -8,11 +8,7 @@ import Link from "next/link";
 const CTAButton = () => {
   const t = useTranslations("LandingPage");
   return (
-    <Link
-      href="/project"
-      target="_blank"
-      rel="noopener noreferrer nofollow"
-    >
+    <Link href="/project">
       <Button
         variant="default"
         className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white"

@@ -1,3 +1,14 @@
+### Tech Stack
+- NextJS
+- Drizzle https://www.youtube.com/watch?v=7-NZ0MlPpJA
+- tRPC
+
+### Deployment & CI/CD
+- Cloudflare Page
+- Cloudflare Worker
+- Cloudflare Image
+- Cloudflare D1
+
 - Alternative 关键词
 - Quick Global Translation
 - 1. “Rapid Multilingual Deployment”
@@ -6,6 +17,10 @@
 - 4.  “Quick Global Translation”
 - 5.  “Accelerate Multilingual Publishing”
 
+
+# Turso
+- cloudflare crontab trigger
+- Database 
 
 
 ```
